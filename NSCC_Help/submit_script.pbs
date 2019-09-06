@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -q normal
+#PBS -l select=1:ncpus=24:mem=96G
+#PBS -l walltime=24:00:00
+#PBS -N loop_Jzcut
+#PBS -M thihakyaw.phy@gmail.com
+#PBS -m bea
+module load python
+cd $PBS_O_WORKDIR
+python loop_Jzcut_hpc.py
+

@@ -1,0 +1,7 @@
+#!/bin/bash
+#PBS -l walltime=100:00:00
+#PBS -l mem=100gb
+#PBS -o outfile
+#PBS -e errorfile
+#PBS -q serial
+# matlab-job QSTAB_Vertices.m
